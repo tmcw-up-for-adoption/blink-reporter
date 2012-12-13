@@ -7,17 +7,13 @@ function blinkReporter(runner) {
     var failures = 0;
     var total = 0;
 
-    runner.on('pass', function(test) {
-        passes++;
-    });
+    runner.on('pass', function(test) { passes++; });
 
-    runner.on('fail', function(test, err) {
-        failures++;
-    });
+    runner.on('fail', function(test, err) { failures++; });
 
     runner.on('end', function() {
         blink(function(err, blink) {
-            if (err) process.exit(failures);
+            if (err) return process.exit(failures);
             blink.set((failures > 0) ? 'red': 'green');
             process.exit(failures);
         });
