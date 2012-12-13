@@ -1,5 +1,7 @@
 ## blink-reporter
 
+![](http://farm9.staticflickr.com/8064/8267975401_9bd2ecd078_h.jpg)
+
 A [mocha](https://github.com/visionmedia/mocha) test reporter that turns a
 [blink(1)](http://blink1.thingm.com/) red or green depending on test status.
 
