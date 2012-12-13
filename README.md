@@ -4,6 +4,7 @@
 
 A [mocha](https://github.com/visionmedia/mocha) test reporter that turns a
 [blink(1)](http://blink1.thingm.com/) red or green depending on test status.
+It uses [node-blink](https://github.com/tmcw/node-blink) to do that.
 
     npm install -g blink-reporter
     # cd into you project
