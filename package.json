@@ -8,6 +8,6 @@
     },
     "license": "BSD",
     "dependencies": {
-        "node-blink": "0.0.2"
+        "node-blink": "0.0.3"
     }
 }
