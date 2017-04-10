@@ -1,5 +1,7 @@
 ## blink-reporter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/blink-reporter.svg)](https://greenkeeper.io/)
+
 ![](http://farm9.staticflickr.com/8064/8267975401_9bd2ecd078_h.jpg)
 
 A [mocha](https://github.com/visionmedia/mocha) test reporter that turns a
